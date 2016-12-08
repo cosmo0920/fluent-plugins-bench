@@ -1,0 +1,4 @@
+/bench-map/*.log
+/bench-map/vendor/
+/bench-map/Gemfile.lock
+/bench-map/*.pos
