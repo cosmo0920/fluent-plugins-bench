@@ -18,8 +18,8 @@ This benchmarks following architecture scenario:
 Assume ruby is installed
 
 ```
-git clone https://github.com/fluent/fluentd-benchmark
-cd fluentd-benchmark/bench_map
+git clone https://github.com/cosmo0920/fluent-plugins-bench
+cd fluent-plugins-bench/bench_map
 bundle
 bundle exec fluentd -c map.conf -p /path/to/plugin-map
 ```
@@ -31,7 +31,7 @@ Run at Fluentd agent server.
 This tool outputs logs to `dummy.log`, and Fluentd agent reads it and process data with fluent-plugin-map.
 
 ```
-cd fluentd-benchmark/bench_map
+cd fluent-plugins-bench/bench_map
 bundle exec dummer -c dummer.conf
 ```
 
